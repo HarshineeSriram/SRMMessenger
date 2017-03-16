@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schem as.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/constraint"
+        android:background="@drawable/animation_list"
+        android:orientation="vertical"
+        tools:context="com.beta.android.aakashresearchlabs.srmmessenger.MainActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="395dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/srmseal"
+                    android:id="@+id/myimage" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="SRM Messenger"
+                    android:textStyle="bold"
+                    android:id="@+id/textview1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:gravity="center_horizontal"
+                    android:scaleType="fitXY"
+                    android:textColor="#01579B"
+                    android:textSize="36sp"/>
+    
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="165dp"
+                        android:background="@drawable/student"
+                        android:layout_weight="1"/>
+    
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="169dp"
+                        android:background="@drawable/teacher"
+                        android:layout_weight="1"/>
+
+
+                </LinearLayout>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:scaleType="fitXY"
+                    android:hint="Registration Number / Email ID"
+                    android:id="@+id/textview2"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:textColorHint="#45000000"
+                    android:textSize="20sp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:scaleType="fitXY"
+                    android:id="@+id/textview3"
+                    android:hint="Password"
+                    android:textAllCaps="true"
+                    android:password="true"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:textColorHint="#45000000"
+                    android:textSize="20sp"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:scaleType="fitXY"
+                    android:text="Login"
+                    android:id="@+id/textview4"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:textColorHint="#45000000"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by Aakash Research Labs©"
+                    android:id="@+id/textview5"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:gravity="center_horizontal"
+                    android:scaleType="fitXY"
+                    android:textColor="#000000"
+                    android:textSize="10sp"/>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
