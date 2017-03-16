@@ -10,24 +10,24 @@
         android:id="@+id/constraint"
         android:background="@drawable/animation_list"
         android:orientation="vertical"
+
         tools:context="com.beta.android.aakashresearchlabs.srmmessenger.MainActivity">
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            >
             
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:paddingTop="40dp"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                >
 
-                <ImageView
-                    android:layout_width="395dp"
-                    android:layout_height="match_parent"
-                    android:scaleType="fitXY"
-                    android:layout_gravity="center_horizontal"
-                    android:background="@drawable/srmseal"
-                    android:id="@+id/myimage" />
+
 
                 <TextView
                     android:layout_width="match_parent"
@@ -50,7 +50,7 @@
                         android:layout_height="165dp"
                         android:background="@drawable/student"
                         android:layout_weight="1"/>
-    
+
                     <Button
                         android:layout_width="50dp"
                         android:layout_height="169dp"
@@ -59,32 +59,40 @@
 
 
                 </LinearLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="25dp">
+
 
                 <EditText
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center_horizontal"
-                    android:scaleType="fitXY"
+                    android:layout_height="wrap_content"
                     android:hint="Registration Number / Email ID"
                     android:id="@+id/textview2"
-                    android:paddingTop="20dp"
-                    android:paddingBottom="20dp"
                     android:textColorHint="#45000000"
                     android:textSize="20sp"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                   >
 
                 <EditText
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
                     android:scaleType="fitXY"
                     android:id="@+id/textview3"
                     android:hint="Password"
                     android:textAllCaps="true"
                     android:password="true"
-                    android:paddingTop="20dp"
-                    android:paddingBottom="20dp"
+
                     android:textColorHint="#45000000"
                     android:textSize="20sp"/>
+                </android.support.design.widget.TextInputLayout>
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

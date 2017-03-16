@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
         custom_font = Typeface.createFromAsset(getAssets(),  "fonts/CENSCBK.TTF");
         tx.setTypeface(custom_font);
 
-        ImageView myImage = (ImageView) findViewById(R.id.myimage);
-        myImage.setAlpha(0.9f);
+        //ImageView myImage = (ImageView) findViewById(R.id.myimage);
+        //myImage.setAlpha(0.9f);
 
     }
 
